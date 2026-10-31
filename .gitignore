@@ -1,0 +1,6 @@
+# Study video: 123 MB, over GitHub's 100 MB file limit
+VIDEOS/
+# Run logs and caches
+sim2real_target/logs/
+__pycache__/
+*.pyc
