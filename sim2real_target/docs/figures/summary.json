@@ -1,12 +1,48 @@
 {
  "splits": {
-  "train clean": {
-   "flights": 50,
-   "success_rate": 1.0
+  "Procedural campus \u00b7 Crazyflie": {
+   "train clean": {
+    "flights": 50,
+    "success_rate": 1.0
+   },
+   "train varied": {
+    "flights": 100,
+    "success_rate": 1.0
+   },
+   "new layouts": {
+    "flights": 25,
+    "success_rate": 1.0
+   },
+   "unseen campus": {
+    "flights": 25,
+    "success_rate": 1.0
+   },
+   "harsher than training": {
+    "flights": 25,
+    "success_rate": 1.0
+   }
   },
-  "train varied": {
-   "flights": 6,
-   "success_rate": 1.0
+  "NUST / UET Taxila twins \u00b7 AK hybrid": {
+   "NUST train clean": {
+    "flights": 50,
+    "success_rate": 1.0
+   },
+   "NUST train varied": {
+    "flights": 200,
+    "success_rate": 1.0
+   },
+   "NUST new layouts": {
+    "flights": 50,
+    "success_rate": 1.0
+   },
+   "UET Taxila (never seen)": {
+    "flights": 50,
+    "success_rate": 1.0
+   },
+   "NUST harsher than training": {
+    "flights": 50,
+    "success_rate": 1.0
+   }
   }
  },
  "dataset": {
@@ -16,9 +52,19 @@
    "km": 5.8
   },
   "train_varied": {
-   "flights_saved": 6,
-   "hours": 0.07,
-   "km": 0.8
+   "flights_saved": 100,
+   "hours": 1.09,
+   "km": 11.6
+  },
+  "nust_train_clean": {
+   "flights_saved": 50,
+   "hours": 0.56,
+   "km": 5.9
+  },
+  "nust_train_varied": {
+   "flights_saved": 200,
+   "hours": 2.35,
+   "km": 25.0
   }
  }
 }

@@ -1,0 +1,1863 @@
+{
+ "summary": {
+  "split": "nust_test_harsh",
+  "policy": "expert",
+  "flights": 50,
+  "success_rate": 1.0,
+  "outcomes": {
+   "success": 50
+  }
+ },
+ "flights": [
+  {
+   "split": "nust_test_harsh",
+   "index": 0,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000000,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 49.0,
+   "path_flown_m": 145.1,
+   "straight_dist_m": 137.5,
+   "expert_path_m": 146.1,
+   "final_goal_dist_m": 1.96,
+   "wall_time_s": 23.6,
+   "start": [
+    10.67,
+    572.29
+   ],
+   "goal": [
+    -95.72,
+    659.38
+   ],
+   "randomization": {
+    "n_extra_obstacles": 37,
+    "wind_speed": 1.3859,
+    "wind_dir": 0.4319,
+    "gust_std": 0.3946,
+    "sensor_noise": 0.1325,
+    "mass_scale": 1.0932,
+    "thrust_gain": 1.1341,
+    "motor_tau": 0.0449,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 1,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000001,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 53.4,
+   "path_flown_m": 157.3,
+   "straight_dist_m": 98.0,
+   "expert_path_m": 158.2,
+   "final_goal_dist_m": 1.77,
+   "wall_time_s": 24.4,
+   "start": [
+    1249.55,
+    197.01
+   ],
+   "goal": [
+    1154.0,
+    218.91
+   ],
+   "randomization": {
+    "n_extra_obstacles": 36,
+    "wind_speed": 1.2909,
+    "wind_dir": 2.657,
+    "gust_std": 0.4636,
+    "sensor_noise": 0.119,
+    "mass_scale": 1.0074,
+    "thrust_gain": 0.9495,
+    "motor_tau": 0.0578,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 2,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000002,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 32.4,
+   "path_flown_m": 94.2,
+   "straight_dist_m": 82.1,
+   "expert_path_m": 95.2,
+   "final_goal_dist_m": 1.83,
+   "wall_time_s": 14.6,
+   "start": [
+    -685.54,
+    355.05
+   ],
+   "goal": [
+    -626.96,
+    297.52
+   ],
+   "randomization": {
+    "n_extra_obstacles": 34,
+    "wind_speed": 1.3265,
+    "wind_dir": 4.3051,
+    "gust_std": 0.3211,
+    "sensor_noise": 0.1347,
+    "mass_scale": 1.0339,
+    "thrust_gain": 0.9182,
+    "motor_tau": 0.0511,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 3,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000003,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 45.5,
+   "path_flown_m": 134.4,
+   "straight_dist_m": 99.2,
+   "expert_path_m": 136.4,
+   "final_goal_dist_m": 1.81,
+   "wall_time_s": 22.1,
+   "start": [
+    -939.85,
+    959.95
+   ],
+   "goal": [
+    -867.95,
+    891.62
+   ],
+   "randomization": {
+    "n_extra_obstacles": 36,
+    "wind_speed": 1.2323,
+    "wind_dir": 0.7857,
+    "gust_std": 0.3404,
+    "sensor_noise": 0.1381,
+    "mass_scale": 1.0577,
+    "thrust_gain": 1.0803,
+    "motor_tau": 0.0572,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 4,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000004,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 32.2,
+   "path_flown_m": 94.0,
+   "straight_dist_m": 79.5,
+   "expert_path_m": 95.3,
+   "final_goal_dist_m": 1.75,
+   "wall_time_s": 18.8,
+   "start": [
+    -898.49,
+    -12.3
+   ],
+   "goal": [
+    -872.57,
+    62.84
+   ],
+   "randomization": {
+    "n_extra_obstacles": 29,
+    "wind_speed": 1.2723,
+    "wind_dir": 3.2466,
+    "gust_std": 0.4007,
+    "sensor_noise": 0.126,
+    "mass_scale": 0.9157,
+    "thrust_gain": 1.053,
+    "motor_tau": 0.0489,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 5,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000005,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 51.4,
+   "path_flown_m": 153.1,
+   "straight_dist_m": 146.8,
+   "expert_path_m": 155.2,
+   "final_goal_dist_m": 1.91,
+   "wall_time_s": 35.7,
+   "start": [
+    391.12,
+    846.12
+   ],
+   "goal": [
+    454.46,
+    713.7
+   ],
+   "randomization": {
+    "n_extra_obstacles": 32,
+    "wind_speed": 1.3338,
+    "wind_dir": 5.2367,
+    "gust_std": 0.3362,
+    "sensor_noise": 0.1516,
+    "mass_scale": 1.0081,
+    "thrust_gain": 0.9272,
+    "motor_tau": 0.048,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 6,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000006,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 51.5,
+   "path_flown_m": 152.8,
+   "straight_dist_m": 147.0,
+   "expert_path_m": 154.1,
+   "final_goal_dist_m": 1.79,
+   "wall_time_s": 40.9,
+   "start": [
+    1145.75,
+    835.86
+   ],
+   "goal": [
+    1115.49,
+    692.02
+   ],
+   "randomization": {
+    "n_extra_obstacles": 28,
+    "wind_speed": 1.5985,
+    "wind_dir": 4.5482,
+    "gust_std": 0.3704,
+    "sensor_noise": 0.1195,
+    "mass_scale": 1.1434,
+    "thrust_gain": 1.0615,
+    "motor_tau": 0.041,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 7,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000007,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 52.1,
+   "path_flown_m": 153.8,
+   "straight_dist_m": 144.9,
+   "expert_path_m": 155.7,
+   "final_goal_dist_m": 1.76,
+   "wall_time_s": 37.4,
+   "start": [
+    840.66,
+    35.45
+   ],
+   "goal": [
+    843.2,
+    180.31
+   ],
+   "randomization": {
+    "n_extra_obstacles": 39,
+    "wind_speed": 1.476,
+    "wind_dir": 2.7754,
+    "gust_std": 0.3733,
+    "sensor_noise": 0.1599,
+    "mass_scale": 1.113,
+    "thrust_gain": 0.9754,
+    "motor_tau": 0.0449,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 8,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000008,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 42.9,
+   "path_flown_m": 126.6,
+   "straight_dist_m": 111.4,
+   "expert_path_m": 128.7,
+   "final_goal_dist_m": 2.0,
+   "wall_time_s": 29.9,
+   "start": [
+    1096.87,
+    -396.82
+   ],
+   "goal": [
+    1208.23,
+    -395.83
+   ],
+   "randomization": {
+    "n_extra_obstacles": 37,
+    "wind_speed": 1.2536,
+    "wind_dir": 2.5372,
+    "gust_std": 0.4068,
+    "sensor_noise": 0.1477,
+    "mass_scale": 0.8717,
+    "thrust_gain": 0.965,
+    "motor_tau": 0.0464,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 9,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000009,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 30.3,
+   "path_flown_m": 89.5,
+   "straight_dist_m": 74.2,
+   "expert_path_m": 91.5,
+   "final_goal_dist_m": 1.78,
+   "wall_time_s": 22.9,
+   "start": [
+    -305.05,
+    457.21
+   ],
+   "goal": [
+    -361.27,
+    408.72
+   ],
+   "randomization": {
+    "n_extra_obstacles": 32,
+    "wind_speed": 1.5882,
+    "wind_dir": 5.1733,
+    "gust_std": 0.492,
+    "sensor_noise": 0.1513,
+    "mass_scale": 0.8938,
+    "thrust_gain": 0.9329,
+    "motor_tau": 0.0559,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 10,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000010,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 48.8,
+   "path_flown_m": 142.6,
+   "straight_dist_m": 138.9,
+   "expert_path_m": 144.1,
+   "final_goal_dist_m": 1.92,
+   "wall_time_s": 34.7,
+   "start": [
+    -399.44,
+    -798.71
+   ],
+   "goal": [
+    -400.29,
+    -659.79
+   ],
+   "randomization": {
+    "n_extra_obstacles": 33,
+    "wind_speed": 1.5598,
+    "wind_dir": 4.5024,
+    "gust_std": 0.4267,
+    "sensor_noise": 0.1477,
+    "mass_scale": 0.9411,
+    "thrust_gain": 0.9029,
+    "motor_tau": 0.0486,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 11,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000011,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 33.9,
+   "path_flown_m": 99.4,
+   "straight_dist_m": 88.3,
+   "expert_path_m": 101.3,
+   "final_goal_dist_m": 1.88,
+   "wall_time_s": 22.9,
+   "start": [
+    268.6,
+    992.1
+   ],
+   "goal": [
+    349.46,
+    956.61
+   ],
+   "randomization": {
+    "n_extra_obstacles": 32,
+    "wind_speed": 1.6877,
+    "wind_dir": 1.1022,
+    "gust_std": 0.3354,
+    "sensor_noise": 0.1396,
+    "mass_scale": 0.9866,
+    "thrust_gain": 0.9454,
+    "motor_tau": 0.0478,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 12,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000012,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 37.0,
+   "path_flown_m": 108.8,
+   "straight_dist_m": 84.6,
+   "expert_path_m": 110.5,
+   "final_goal_dist_m": 1.9,
+   "wall_time_s": 27.1,
+   "start": [
+    -334.98,
+    -1206.27
+   ],
+   "goal": [
+    -366.03,
+    -1284.92
+   ],
+   "randomization": {
+    "n_extra_obstacles": 38,
+    "wind_speed": 1.3528,
+    "wind_dir": 4.6708,
+    "gust_std": 0.3183,
+    "sensor_noise": 0.1118,
+    "mass_scale": 0.9003,
+    "thrust_gain": 0.942,
+    "motor_tau": 0.052,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 13,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000013,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 40.4,
+   "path_flown_m": 118.6,
+   "straight_dist_m": 111.7,
+   "expert_path_m": 121.4,
+   "final_goal_dist_m": 1.8,
+   "wall_time_s": 29.3,
+   "start": [
+    457.64,
+    468.87
+   ],
+   "goal": [
+    454.09,
+    357.24
+   ],
+   "randomization": {
+    "n_extra_obstacles": 37,
+    "wind_speed": 1.2739,
+    "wind_dir": 2.7284,
+    "gust_std": 0.3977,
+    "sensor_noise": 0.1473,
+    "mass_scale": 1.04,
+    "thrust_gain": 0.8373,
+    "motor_tau": 0.0481,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 14,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000014,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 43.6,
+   "path_flown_m": 128.9,
+   "straight_dist_m": 115.8,
+   "expert_path_m": 130.6,
+   "final_goal_dist_m": 1.93,
+   "wall_time_s": 29.3,
+   "start": [
+    -623.02,
+    -4.66
+   ],
+   "goal": [
+    -724.88,
+    50.43
+   ],
+   "randomization": {
+    "n_extra_obstacles": 36,
+    "wind_speed": 1.3967,
+    "wind_dir": 1.9269,
+    "gust_std": 0.3091,
+    "sensor_noise": 0.1159,
+    "mass_scale": 1.1478,
+    "thrust_gain": 1.1391,
+    "motor_tau": 0.0549,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 15,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000015,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 49.3,
+   "path_flown_m": 145.9,
+   "straight_dist_m": 101.9,
+   "expert_path_m": 147.2,
+   "final_goal_dist_m": 1.91,
+   "wall_time_s": 25.3,
+   "start": [
+    1305.28,
+    -209.49
+   ],
+   "goal": [
+    1269.25,
+    -304.78
+   ],
+   "randomization": {
+    "n_extra_obstacles": 35,
+    "wind_speed": 1.448,
+    "wind_dir": 2.6541,
+    "gust_std": 0.3072,
+    "sensor_noise": 0.1192,
+    "mass_scale": 1.018,
+    "thrust_gain": 1.1608,
+    "motor_tau": 0.0455,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 16,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000016,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 49.5,
+   "path_flown_m": 147.1,
+   "straight_dist_m": 127.0,
+   "expert_path_m": 149.7,
+   "final_goal_dist_m": 1.76,
+   "wall_time_s": 24.5,
+   "start": [
+    189.95,
+    -1127.36
+   ],
+   "goal": [
+    238.03,
+    -1009.8
+   ],
+   "randomization": {
+    "n_extra_obstacles": 40,
+    "wind_speed": 1.4767,
+    "wind_dir": 6.2698,
+    "gust_std": 0.3511,
+    "sensor_noise": 0.1146,
+    "mass_scale": 0.9246,
+    "thrust_gain": 1.0336,
+    "motor_tau": 0.0547,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 17,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000017,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 45.1,
+   "path_flown_m": 133.2,
+   "straight_dist_m": 124.6,
+   "expert_path_m": 135.0,
+   "final_goal_dist_m": 1.9,
+   "wall_time_s": 23.0,
+   "start": [
+    951.68,
+    -618.56
+   ],
+   "goal": [
+    831.82,
+    -584.46
+   ],
+   "randomization": {
+    "n_extra_obstacles": 40,
+    "wind_speed": 1.1158,
+    "wind_dir": 2.9215,
+    "gust_std": 0.476,
+    "sensor_noise": 0.1319,
+    "mass_scale": 1.0031,
+    "thrust_gain": 0.8544,
+    "motor_tau": 0.0599,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 18,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000018,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 36.6,
+   "path_flown_m": 107.5,
+   "straight_dist_m": 88.9,
+   "expert_path_m": 109.2,
+   "final_goal_dist_m": 1.87,
+   "wall_time_s": 18.5,
+   "start": [
+    -478.41,
+    237.73
+   ],
+   "goal": [
+    -411.27,
+    296.07
+   ],
+   "randomization": {
+    "n_extra_obstacles": 35,
+    "wind_speed": 1.3275,
+    "wind_dir": 5.6019,
+    "gust_std": 0.3348,
+    "sensor_noise": 0.1104,
+    "mass_scale": 1.1274,
+    "thrust_gain": 1.0328,
+    "motor_tau": 0.058,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 19,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000019,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 49.3,
+   "path_flown_m": 147.3,
+   "straight_dist_m": 129.4,
+   "expert_path_m": 147.8,
+   "final_goal_dist_m": 1.96,
+   "wall_time_s": 24.4,
+   "start": [
+    -346.32,
+    459.29
+   ],
+   "goal": [
+    -471.32,
+    426.05
+   ],
+   "randomization": {
+    "n_extra_obstacles": 40,
+    "wind_speed": 1.6722,
+    "wind_dir": 3.4404,
+    "gust_std": 0.3087,
+    "sensor_noise": 0.1173,
+    "mass_scale": 0.867,
+    "thrust_gain": 1.0788,
+    "motor_tau": 0.0428,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 20,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000020,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 48.4,
+   "path_flown_m": 143.7,
+   "straight_dist_m": 132.0,
+   "expert_path_m": 146.0,
+   "final_goal_dist_m": 1.96,
+   "wall_time_s": 22.3,
+   "start": [
+    390.42,
+    862.0
+   ],
+   "goal": [
+    488.38,
+    950.53
+   ],
+   "randomization": {
+    "n_extra_obstacles": 35,
+    "wind_speed": 1.6204,
+    "wind_dir": 2.4964,
+    "gust_std": 0.4053,
+    "sensor_noise": 0.143,
+    "mass_scale": 1.0529,
+    "thrust_gain": 1.1608,
+    "motor_tau": 0.0474,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 21,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000021,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 35.4,
+   "path_flown_m": 104.5,
+   "straight_dist_m": 94.3,
+   "expert_path_m": 106.7,
+   "final_goal_dist_m": 1.94,
+   "wall_time_s": 16.7,
+   "start": [
+    -758.24,
+    -489.44
+   ],
+   "goal": [
+    -810.95,
+    -411.26
+   ],
+   "randomization": {
+    "n_extra_obstacles": 29,
+    "wind_speed": 1.5907,
+    "wind_dir": 4.172,
+    "gust_std": 0.361,
+    "sensor_noise": 0.157,
+    "mass_scale": 0.8853,
+    "thrust_gain": 0.9897,
+    "motor_tau": 0.0563,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 22,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000022,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 44.3,
+   "path_flown_m": 131.1,
+   "straight_dist_m": 99.7,
+   "expert_path_m": 132.8,
+   "final_goal_dist_m": 1.83,
+   "wall_time_s": 21.0,
+   "start": [
+    -1029.23,
+    979.23
+   ],
+   "goal": [
+    -1104.79,
+    1044.28
+   ],
+   "randomization": {
+    "n_extra_obstacles": 31,
+    "wind_speed": 1.592,
+    "wind_dir": 2.4498,
+    "gust_std": 0.3549,
+    "sensor_noise": 0.1182,
+    "mass_scale": 1.1359,
+    "thrust_gain": 0.9461,
+    "motor_tau": 0.0401,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 23,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000023,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 42.3,
+   "path_flown_m": 125.1,
+   "straight_dist_m": 117.4,
+   "expert_path_m": 127.2,
+   "final_goal_dist_m": 1.85,
+   "wall_time_s": 19.8,
+   "start": [
+    -45.87,
+    541.54
+   ],
+   "goal": [
+    30.27,
+    452.19
+   ],
+   "randomization": {
+    "n_extra_obstacles": 30,
+    "wind_speed": 1.1703,
+    "wind_dir": 5.7257,
+    "gust_std": 0.4777,
+    "sensor_noise": 0.1432,
+    "mass_scale": 0.989,
+    "thrust_gain": 0.853,
+    "motor_tau": 0.0408,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 24,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000024,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 42.0,
+   "path_flown_m": 125.7,
+   "straight_dist_m": 113.1,
+   "expert_path_m": 127.9,
+   "final_goal_dist_m": 2.0,
+   "wall_time_s": 19.8,
+   "start": [
+    -1126.64,
+    331.5
+   ],
+   "goal": [
+    -1073.78,
+    231.54
+   ],
+   "randomization": {
+    "n_extra_obstacles": 34,
+    "wind_speed": 1.676,
+    "wind_dir": 4.1177,
+    "gust_std": 0.3434,
+    "sensor_noise": 0.1119,
+    "mass_scale": 0.9848,
+    "thrust_gain": 1.0991,
+    "motor_tau": 0.0418,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 25,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000025,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 49.2,
+   "path_flown_m": 146.2,
+   "straight_dist_m": 121.0,
+   "expert_path_m": 148.0,
+   "final_goal_dist_m": 1.91,
+   "wall_time_s": 22.7,
+   "start": [
+    -406.43,
+    1292.25
+   ],
+   "goal": [
+    -392.3,
+    1172.12
+   ],
+   "randomization": {
+    "n_extra_obstacles": 40,
+    "wind_speed": 1.4932,
+    "wind_dir": 0.2288,
+    "gust_std": 0.3644,
+    "sensor_noise": 0.1537,
+    "mass_scale": 0.9441,
+    "thrust_gain": 1.0948,
+    "motor_tau": 0.0499,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 26,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000026,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 54.4,
+   "path_flown_m": 160.5,
+   "straight_dist_m": 147.2,
+   "expert_path_m": 161.6,
+   "final_goal_dist_m": 1.76,
+   "wall_time_s": 25.0,
+   "start": [
+    1061.63,
+    561.86
+   ],
+   "goal": [
+    1133.82,
+    690.14
+   ],
+   "randomization": {
+    "n_extra_obstacles": 29,
+    "wind_speed": 1.1701,
+    "wind_dir": 3.9301,
+    "gust_std": 0.4528,
+    "sensor_noise": 0.1221,
+    "mass_scale": 1.1409,
+    "thrust_gain": 0.9409,
+    "motor_tau": 0.0462,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 27,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000027,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 43.5,
+   "path_flown_m": 128.0,
+   "straight_dist_m": 110.0,
+   "expert_path_m": 130.1,
+   "final_goal_dist_m": 1.77,
+   "wall_time_s": 20.1,
+   "start": [
+    1168.42,
+    670.4
+   ],
+   "goal": [
+    1161.36,
+    560.63
+   ],
+   "randomization": {
+    "n_extra_obstacles": 38,
+    "wind_speed": 1.4533,
+    "wind_dir": 1.9369,
+    "gust_std": 0.399,
+    "sensor_noise": 0.1436,
+    "mass_scale": 0.9176,
+    "thrust_gain": 0.9462,
+    "motor_tau": 0.0486,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 28,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000028,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 54.8,
+   "path_flown_m": 162.4,
+   "straight_dist_m": 139.7,
+   "expert_path_m": 164.1,
+   "final_goal_dist_m": 1.93,
+   "wall_time_s": 25.4,
+   "start": [
+    487.13,
+    53.88
+   ],
+   "goal": [
+    619.93,
+    10.56
+   ],
+   "randomization": {
+    "n_extra_obstacles": 29,
+    "wind_speed": 1.4713,
+    "wind_dir": 5.582,
+    "gust_std": 0.4583,
+    "sensor_noise": 0.1341,
+    "mass_scale": 1.1193,
+    "thrust_gain": 0.8755,
+    "motor_tau": 0.0472,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 29,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000029,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 33.7,
+   "path_flown_m": 98.3,
+   "straight_dist_m": 79.2,
+   "expert_path_m": 99.9,
+   "final_goal_dist_m": 1.88,
+   "wall_time_s": 16.2,
+   "start": [
+    1251.59,
+    844.41
+   ],
+   "goal": [
+    1329.34,
+    859.28
+   ],
+   "randomization": {
+    "n_extra_obstacles": 31,
+    "wind_speed": 1.2644,
+    "wind_dir": 3.3087,
+    "gust_std": 0.3602,
+    "sensor_noise": 0.1441,
+    "mass_scale": 1.0585,
+    "thrust_gain": 1.1346,
+    "motor_tau": 0.0526,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 30,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000030,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 35.4,
+   "path_flown_m": 104.4,
+   "straight_dist_m": 94.4,
+   "expert_path_m": 105.9,
+   "final_goal_dist_m": 1.8,
+   "wall_time_s": 17.3,
+   "start": [
+    -343.73,
+    555.93
+   ],
+   "goal": [
+    -421.91,
+    608.91
+   ],
+   "randomization": {
+    "n_extra_obstacles": 31,
+    "wind_speed": 1.2382,
+    "wind_dir": 2.084,
+    "gust_std": 0.3879,
+    "sensor_noise": 0.1401,
+    "mass_scale": 0.9866,
+    "thrust_gain": 1.1015,
+    "motor_tau": 0.0525,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 31,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000031,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 51.5,
+   "path_flown_m": 153.4,
+   "straight_dist_m": 144.1,
+   "expert_path_m": 155.4,
+   "final_goal_dist_m": 2.0,
+   "wall_time_s": 24.5,
+   "start": [
+    -505.84,
+    -349.43
+   ],
+   "goal": [
+    -619.26,
+    -438.34
+   ],
+   "randomization": {
+    "n_extra_obstacles": 38,
+    "wind_speed": 1.7465,
+    "wind_dir": 4.0925,
+    "gust_std": 0.4396,
+    "sensor_noise": 0.1305,
+    "mass_scale": 0.8612,
+    "thrust_gain": 1.0955,
+    "motor_tau": 0.0445,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 32,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000032,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 48.5,
+   "path_flown_m": 144.0,
+   "straight_dist_m": 132.1,
+   "expert_path_m": 145.2,
+   "final_goal_dist_m": 1.77,
+   "wall_time_s": 22.3,
+   "start": [
+    -435.63,
+    408.25
+   ],
+   "goal": [
+    -452.78,
+    277.28
+   ],
+   "randomization": {
+    "n_extra_obstacles": 31,
+    "wind_speed": 1.5716,
+    "wind_dir": 3.7133,
+    "gust_std": 0.3692,
+    "sensor_noise": 0.1216,
+    "mass_scale": 1.0958,
+    "thrust_gain": 1.1687,
+    "motor_tau": 0.0476,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 33,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000033,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 52.1,
+   "path_flown_m": 152.9,
+   "straight_dist_m": 131.3,
+   "expert_path_m": 155.3,
+   "final_goal_dist_m": 1.91,
+   "wall_time_s": 24.5,
+   "start": [
+    -664.59,
+    -178.58
+   ],
+   "goal": [
+    -756.26,
+    -272.58
+   ],
+   "randomization": {
+    "n_extra_obstacles": 35,
+    "wind_speed": 1.5965,
+    "wind_dir": 1.1085,
+    "gust_std": 0.3088,
+    "sensor_noise": 0.1457,
+    "mass_scale": 0.9735,
+    "thrust_gain": 0.9217,
+    "motor_tau": 0.0507,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 34,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000034,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 37.9,
+   "path_flown_m": 111.5,
+   "straight_dist_m": 87.8,
+   "expert_path_m": 113.5,
+   "final_goal_dist_m": 1.97,
+   "wall_time_s": 17.8,
+   "start": [
+    -944.34,
+    795.7
+   ],
+   "goal": [
+    -856.67,
+    800.11
+   ],
+   "randomization": {
+    "n_extra_obstacles": 40,
+    "wind_speed": 1.2336,
+    "wind_dir": 3.774,
+    "gust_std": 0.4667,
+    "sensor_noise": 0.1412,
+    "mass_scale": 1.0063,
+    "thrust_gain": 1.1244,
+    "motor_tau": 0.0453,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 35,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000035,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 43.9,
+   "path_flown_m": 131.3,
+   "straight_dist_m": 118.5,
+   "expert_path_m": 132.1,
+   "final_goal_dist_m": 1.83,
+   "wall_time_s": 20.7,
+   "start": [
+    -153.28,
+    -193.94
+   ],
+   "goal": [
+    -162.39,
+    -312.11
+   ],
+   "randomization": {
+    "n_extra_obstacles": 30,
+    "wind_speed": 1.716,
+    "wind_dir": 5.9165,
+    "gust_std": 0.3276,
+    "sensor_noise": 0.1381,
+    "mass_scale": 1.025,
+    "thrust_gain": 0.986,
+    "motor_tau": 0.058,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 36,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000036,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 53.5,
+   "path_flown_m": 158.4,
+   "straight_dist_m": 146.5,
+   "expert_path_m": 160.2,
+   "final_goal_dist_m": 1.78,
+   "wall_time_s": 26.9,
+   "start": [
+    532.14,
+    1106.77
+   ],
+   "goal": [
+    586.9,
+    1242.66
+   ],
+   "randomization": {
+    "n_extra_obstacles": 38,
+    "wind_speed": 1.1993,
+    "wind_dir": 1.3933,
+    "gust_std": 0.3753,
+    "sensor_noise": 0.1532,
+    "mass_scale": 1.0539,
+    "thrust_gain": 0.9956,
+    "motor_tau": 0.053,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 37,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000037,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 52.0,
+   "path_flown_m": 155.0,
+   "straight_dist_m": 144.3,
+   "expert_path_m": 156.9,
+   "final_goal_dist_m": 1.9,
+   "wall_time_s": 26.0,
+   "start": [
+    967.69,
+    -1190.16
+   ],
+   "goal": [
+    1111.92,
+    -1186.96
+   ],
+   "randomization": {
+    "n_extra_obstacles": 29,
+    "wind_speed": 1.437,
+    "wind_dir": 5.2255,
+    "gust_std": 0.402,
+    "sensor_noise": 0.1407,
+    "mass_scale": 0.904,
+    "thrust_gain": 1.1709,
+    "motor_tau": 0.0508,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 38,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000038,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 42.0,
+   "path_flown_m": 123.5,
+   "straight_dist_m": 109.6,
+   "expert_path_m": 125.0,
+   "final_goal_dist_m": 1.74,
+   "wall_time_s": 20.6,
+   "start": [
+    -239.03,
+    -88.45
+   ],
+   "goal": [
+    -295.4,
+    5.51
+   ],
+   "randomization": {
+    "n_extra_obstacles": 30,
+    "wind_speed": 1.4194,
+    "wind_dir": 5.9777,
+    "gust_std": 0.4973,
+    "sensor_noise": 0.1208,
+    "mass_scale": 0.9639,
+    "thrust_gain": 1.1222,
+    "motor_tau": 0.0549,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 39,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000039,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 51.6,
+   "path_flown_m": 153.6,
+   "straight_dist_m": 147.0,
+   "expert_path_m": 155.2,
+   "final_goal_dist_m": 1.85,
+   "wall_time_s": 25.0,
+   "start": [
+    140.58,
+    194.01
+   ],
+   "goal": [
+    264.63,
+    272.96
+   ],
+   "randomization": {
+    "n_extra_obstacles": 35,
+    "wind_speed": 1.3655,
+    "wind_dir": 1.1175,
+    "gust_std": 0.4553,
+    "sensor_noise": 0.1541,
+    "mass_scale": 1.0308,
+    "thrust_gain": 0.9152,
+    "motor_tau": 0.0588,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 40,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000040,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 40.5,
+   "path_flown_m": 119.7,
+   "straight_dist_m": 108.7,
+   "expert_path_m": 121.9,
+   "final_goal_dist_m": 1.9,
+   "wall_time_s": 18.7,
+   "start": [
+    1053.08,
+    -1051.56
+   ],
+   "goal": [
+    956.82,
+    -1101.95
+   ],
+   "randomization": {
+    "n_extra_obstacles": 34,
+    "wind_speed": 1.183,
+    "wind_dir": 1.3803,
+    "gust_std": 0.3048,
+    "sensor_noise": 0.1525,
+    "mass_scale": 0.8864,
+    "thrust_gain": 0.9007,
+    "motor_tau": 0.0495,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 41,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000041,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 42.3,
+   "path_flown_m": 125.1,
+   "straight_dist_m": 105.3,
+   "expert_path_m": 127.0,
+   "final_goal_dist_m": 1.84,
+   "wall_time_s": 19.9,
+   "start": [
+    -105.25,
+    234.23
+   ],
+   "goal": [
+    -0.3,
+    226.18
+   ],
+   "randomization": {
+    "n_extra_obstacles": 36,
+    "wind_speed": 1.4085,
+    "wind_dir": 0.6264,
+    "gust_std": 0.4439,
+    "sensor_noise": 0.1241,
+    "mass_scale": 1.1033,
+    "thrust_gain": 1.0044,
+    "motor_tau": 0.042,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 42,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000042,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 40.5,
+   "path_flown_m": 118.5,
+   "straight_dist_m": 103.1,
+   "expert_path_m": 119.8,
+   "final_goal_dist_m": 1.89,
+   "wall_time_s": 18.9,
+   "start": [
+    -1108.86,
+    695.03
+   ],
+   "goal": [
+    -1180.68,
+    769.03
+   ],
+   "randomization": {
+    "n_extra_obstacles": 32,
+    "wind_speed": 1.2356,
+    "wind_dir": 5.3738,
+    "gust_std": 0.3796,
+    "sensor_noise": 0.1158,
+    "mass_scale": 1.1451,
+    "thrust_gain": 1.0739,
+    "motor_tau": 0.0463,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 43,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000043,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 52.2,
+   "path_flown_m": 154.8,
+   "straight_dist_m": 146.5,
+   "expert_path_m": 156.8,
+   "final_goal_dist_m": 1.78,
+   "wall_time_s": 24.6,
+   "start": [
+    -727.37,
+    964.48
+   ],
+   "goal": [
+    -832.63,
+    862.52
+   ],
+   "randomization": {
+    "n_extra_obstacles": 33,
+    "wind_speed": 1.4769,
+    "wind_dir": 3.1409,
+    "gust_std": 0.4461,
+    "sensor_noise": 0.1433,
+    "mass_scale": 0.9876,
+    "thrust_gain": 1.164,
+    "motor_tau": 0.0534,
+    "ctrl_latency_steps": 2
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 44,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000044,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 48.2,
+   "path_flown_m": 141.6,
+   "straight_dist_m": 133.4,
+   "expert_path_m": 143.3,
+   "final_goal_dist_m": 1.93,
+   "wall_time_s": 24.4,
+   "start": [
+    -228.62,
+    82.75
+   ],
+   "goal": [
+    -146.03,
+    -21.96
+   ],
+   "randomization": {
+    "n_extra_obstacles": 32,
+    "wind_speed": 1.3785,
+    "wind_dir": 1.1659,
+    "gust_std": 0.4019,
+    "sensor_noise": 0.1575,
+    "mass_scale": 0.9642,
+    "thrust_gain": 0.9471,
+    "motor_tau": 0.0456,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 45,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000045,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 52.8,
+   "path_flown_m": 156.5,
+   "straight_dist_m": 145.8,
+   "expert_path_m": 157.3,
+   "final_goal_dist_m": 1.98,
+   "wall_time_s": 27.2,
+   "start": [
+    62.32,
+    -359.0
+   ],
+   "goal": [
+    15.06,
+    -496.92
+   ],
+   "randomization": {
+    "n_extra_obstacles": 34,
+    "wind_speed": 1.6342,
+    "wind_dir": 2.819,
+    "gust_std": 0.3975,
+    "sensor_noise": 0.1198,
+    "mass_scale": 1.1077,
+    "thrust_gain": 0.9713,
+    "motor_tau": 0.0467,
+    "ctrl_latency_steps": 3
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 46,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000046,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 50.9,
+   "path_flown_m": 151.2,
+   "straight_dist_m": 144.7,
+   "expert_path_m": 153.4,
+   "final_goal_dist_m": 1.87,
+   "wall_time_s": 25.3,
+   "start": [
+    413.29,
+    674.16
+   ],
+   "goal": [
+    274.16,
+    713.89
+   ],
+   "randomization": {
+    "n_extra_obstacles": 29,
+    "wind_speed": 1.2081,
+    "wind_dir": 1.9718,
+    "gust_std": 0.4795,
+    "sensor_noise": 0.1517,
+    "mass_scale": 0.8607,
+    "thrust_gain": 0.9263,
+    "motor_tau": 0.0571,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 47,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000047,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 51.3,
+   "path_flown_m": 152.9,
+   "straight_dist_m": 141.3,
+   "expert_path_m": 154.7,
+   "final_goal_dist_m": 1.97,
+   "wall_time_s": 24.9,
+   "start": [
+    694.0,
+    147.42
+   ],
+   "goal": [
+    590.61,
+    243.75
+   ],
+   "randomization": {
+    "n_extra_obstacles": 34,
+    "wind_speed": 1.7177,
+    "wind_dir": 3.8806,
+    "gust_std": 0.4266,
+    "sensor_noise": 0.1476,
+    "mass_scale": 1.0058,
+    "thrust_gain": 1.0585,
+    "motor_tau": 0.0406,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 48,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000048,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 44.7,
+   "path_flown_m": 131.9,
+   "straight_dist_m": 106.0,
+   "expert_path_m": 134.0,
+   "final_goal_dist_m": 1.89,
+   "wall_time_s": 20.7,
+   "start": [
+    -766.83,
+    124.07
+   ],
+   "goal": [
+    -662.84,
+    103.46
+   ],
+   "randomization": {
+    "n_extra_obstacles": 35,
+    "wind_speed": 1.2405,
+    "wind_dir": 2.211,
+    "gust_std": 0.4988,
+    "sensor_noise": 0.1351,
+    "mass_scale": 1.0913,
+    "thrust_gain": 0.9491,
+    "motor_tau": 0.0468,
+    "ctrl_latency_steps": 1
+   }
+  },
+  {
+   "split": "nust_test_harsh",
+   "index": 49,
+   "campus_seed": 101,
+   "mode": "harsh",
+   "world": "nust",
+   "drone": "ak_hybrid",
+   "flight_seed": 3000049,
+   "policy": "expert",
+   "outcome": "success",
+   "success": true,
+   "flight_time_s": 53.4,
+   "path_flown_m": 159.0,
+   "straight_dist_m": 128.2,
+   "expert_path_m": 160.8,
+   "final_goal_dist_m": 1.92,
+   "wall_time_s": 25.0,
+   "start": [
+    94.9,
+    154.15
+   ],
+   "goal": [
+    217.75,
+    190.81
+   ],
+   "randomization": {
+    "n_extra_obstacles": 37,
+    "wind_speed": 1.3207,
+    "wind_dir": 1.0451,
+    "gust_std": 0.4614,
+    "sensor_noise": 0.1393,
+    "mass_scale": 0.864,
+    "thrust_gain": 1.1188,
+    "motor_tau": 0.0542,
+    "ctrl_latency_steps": 2
+   }
+  }
+ ]
+}
