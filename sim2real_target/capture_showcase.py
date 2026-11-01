@@ -2,16 +2,26 @@
 
     ~/Documents/isaacsim/python.sh capture_showcase.py
 
+    ~/Documents/isaacsim/python.sh capture_showcase.py --shots nust_train_varied:3,taxila_test_unseen:1
+
 Per flight: an oblique overview of the route, a top-down view, and close chase-camera frames
-along the way. Images go to docs/images/isaac_<split>_<index>_<view>.jpg.
+along the way; per twin, one aerial view of the campus. Images go to
+docs/images/isaac_<split>_<index>_<view>.jpg and docs/images/isaac_<world>_aerial.jpg.
 """
 
+import argparse
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import config as cfg  # before SimulationApp: Isaac puts cv2's own `config` module on sys.path
+
+ap = argparse.ArgumentParser()
+ap.add_argument("--shots", default="train_clean:0,train_varied:11,test_harsh:0", help="split:index,...")
+args, _ = ap.parse_known_args()
+SHOTS = [(s.split(":")[0], int(s.split(":")[1])) for s in args.shots.split(",")]
+
 from isaacsim import SimulationApp
 
 app = SimulationApp({"headless": False, "width": 1600, "height": 900})
@@ -23,13 +33,11 @@ from omni.kit.viewport.utility import capture_viewport_to_file, get_active_viewp
 from env import TargetFlightEnv  # noqa: E402
 from rollout import ExpertPolicy  # noqa: E402
 
-SHOTS = [("train_clean", 0), ("train_varied", 11), ("test_harsh", 0)]
 CHASE_AT = (0.15, 0.45, 0.75)  # fraction of the straight-line distance covered
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "images")
 os.makedirs(OUT, exist_ok=True)
 
-env = TargetFlightEnv(app, headless=False)
-env.chase_offset = (0.5, 0.2)  # close enough that the 10 cm Crazyflie fills part of the frame
+env = None
 viewport = get_active_viewport()
 policy = ExpertPolicy()
 
@@ -45,7 +53,11 @@ def capture(name, eye=None, target=None):
     settle()
     path = os.path.join(OUT, name + ".png")
     capture_viewport_to_file(viewport, path)
-    settle(20)
+    for _ in range(1000):  # the capture is written asynchronously, a few frames later
+        app.update()
+        if os.path.exists(path) and os.path.getsize(path) > 0:
+            break
+    settle(10)
     # PNG captures are ~1.3 MB each; JPEG keeps the repo light
     import cv2  # bundled with Isaac Sim (PIL is not)
 
@@ -56,12 +68,20 @@ def capture(name, eye=None, target=None):
 
 for split_name, index in SHOTS:
     split = cfg.SPLITS[split_name]
+    if env is None or (env.world, env.drone) != (split.world, cfg.DRONES[split.drone]):
+        env = TargetFlightEnv(app, headless=False, world=split.world, drone=split.drone)
+        viewport = get_active_viewport()
+        if env.tmap is not None:  # one wide shot of the whole twin
+            ViewportManager.set_camera_view("/OmniverseKit_Persp", eye=[-650.0, -900.0, 420.0], target=[0.0, 0.0, 0.0])
+            settle(400)  # let the terrain textures stream in; too early and tiles render flat grey
+            capture(f"isaac_{split.world}_aerial", eye=[-650.0, -900.0, 420.0], target=[0.0, 0.0, 0.0])
     out = env.reset(split.campus_seed, split.mode, split.seed_offset + index)
     tag = f"isaac_{split_name}_{index}"
     s, g = env.start, env.goal
-    mid = np.append((s + g) / 2, 2.0)
+    z = (env.ground_at(s) + env.ground_at(g)) / 2
+    mid = np.append((s + g) / 2, z + 2.0)
     back = (s - g) / np.linalg.norm(s - g)
-    capture(f"{tag}_overview", eye=np.append(s + back * 30, 28.0), target=mid)
+    capture(f"{tag}_overview", eye=np.append(s + back * 30, env.ground_at(s) + 28.0), target=mid)
     capture(f"{tag}_topdown", eye=mid + np.array([0.0, -1.0, 0.9 * np.linalg.norm(g - s)]), target=mid)
 
     pending = list(CHASE_AT)

@@ -29,7 +29,10 @@ from rollout import ExpertPolicy, fly  # noqa: E402
 
 out_dir = os.path.join(args.out, args.split)
 os.makedirs(out_dir, exist_ok=True)
-env = TargetFlightEnv(app, headless=not args.gui)
+import config as cfg  # noqa: E402
+
+split = cfg.SPLITS[args.split]
+env = TargetFlightEnv(app, headless=not args.gui, world=split.world, drone=split.drone)
 policy = ExpertPolicy()
 n_ok = 0
 for i in range(args.first, args.first + args.flights):
@@ -37,6 +40,8 @@ for i in range(args.first, args.first + args.flights):
     if os.path.exists(path):
         continue
     result, arrays = fly(env, policy, args.split, i, record=True)
+    if np.median(arrays["alt"]) < 1.0:  # flown at 5 m: a near-zero height reading means the sensors see the drone itself
+        print(f"WARNING [{args.split} {i}] median height reading {np.median(arrays['alt']):.2f} m, check sensor ray origins", flush=True)
     if result["success"] or args.keep_failed:
         np.savez_compressed(path, **arrays)
         result["file"] = os.path.basename(path)

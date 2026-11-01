@@ -4,3 +4,6 @@ VIDEOS/
 sim2real_target/logs/
 __pycache__/
 *.pyc
+sim2real_target/assets/
+# AyroX Gazebo source package (220 MB, over GitHub limit; tools/build_twins.py reads it)
+ak_hybrid_drone.tar.gz

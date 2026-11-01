@@ -73,13 +73,44 @@ HARSH = Randomization(
 MODES = {"clean": CLEAN, "varied": VARIED, "harsh": HARSH}
 
 
+# --- Drones ------------------------------------------------------------------------
+# usd: Nucleus path (cloud assets) or a path relative to this folder. body: the rigid body that
+# gets the thrust/torque; links: every rigid body of the drone (their masses add up).
+DRONES = {
+    "crazyflie": {
+        "usd": "nucleus:/Isaac/Robots/Bitcraze/Crazyflie/cf2x.usd",
+        "root": "/World/cf",
+        "body": "/World/cf/body",
+        "links": ["/World/cf/body"] + [f"/World/cf/m{i}_prop" for i in range(1, 5)],
+        "radius": 0.08,
+        "chase": (0.5, 0.2),
+    },
+    # AyroX's hybrid drone from the Gazebo package (built by tools/build_twins.py): 1.5 kg, 0.36 m frame
+    "ak_hybrid": {
+        "usd": "assets/ak_hybrid_drone.usd",
+        "root": "/World/drone",
+        "body": "/World/drone",
+        "links": ["/World/drone"],
+        "radius": 0.26,
+        "chase": (2.2, 0.9),
+    },
+}
+
+# --- Worlds ----------------------------------------------------------------------------
+# "procedural" = the generated mini-campus (campus.py). Twins come from tools/build_twins.py +
+# tools/build_maps.py: assets/twins/<name>.usd and <name>_map.npz.
+TWINS = ("nust", "uet_taxila")
+
+
 @dataclass
 class Split:
-    """A named set of flights: which campus, which randomization, which seed range."""
+    """A named set of flights: which world and drone, which randomization, which seed range."""
 
     campus_seed: int
     mode: str
     seed_offset: int = 0
+    world: str = "procedural"
+    drone: str = "crazyflie"
     notes: str = field(default="")
 
 
@@ -90,4 +121,11 @@ SPLITS = {
     "test_new_layouts": Split(campus_seed=1, mode="varied", seed_offset=1_000_000),
     "test_unseen_campus": Split(campus_seed=2, mode="varied", seed_offset=2_000_000),
     "test_harsh": Split(campus_seed=1, mode="harsh", seed_offset=3_000_000),
+    # The study's setup: AyroX hybrid drone in the real campus twins. Train on NUST H-12 only;
+    # UET Taxila is never trained on.
+    "nust_train_clean": Split(campus_seed=101, mode="clean", seed_offset=0, world="nust", drone="ak_hybrid"),
+    "nust_train_varied": Split(campus_seed=101, mode="varied", seed_offset=0, world="nust", drone="ak_hybrid"),
+    "nust_test_new_layouts": Split(campus_seed=101, mode="varied", seed_offset=1_000_000, world="nust", drone="ak_hybrid"),
+    "taxila_test_unseen": Split(campus_seed=102, mode="varied", seed_offset=2_000_000, world="uet_taxila", drone="ak_hybrid"),
+    "nust_test_harsh": Split(campus_seed=101, mode="harsh", seed_offset=3_000_000, world="nust", drone="ak_hybrid"),
 }

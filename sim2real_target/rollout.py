@@ -77,6 +77,8 @@ def fly(env, policy, split_name: str, index: int, record: bool = False) -> tuple
         "index": index,
         "campus_seed": split.campus_seed,
         "mode": split.mode,
+        "world": split.world,
+        "drone": split.drone,
         "flight_seed": seed,
         "policy": getattr(policy, "name", type(policy).__name__),
         "outcome": outcome,

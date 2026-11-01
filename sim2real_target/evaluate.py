@@ -26,7 +26,10 @@ app = launch(headless=not args.gui)
 from env import TargetFlightEnv  # noqa: E402
 from rollout import fly, load_policy  # noqa: E402
 
-env = TargetFlightEnv(app, headless=not args.gui)
+import config as cfg  # noqa: E402
+
+split = cfg.SPLITS[args.split]
+env = TargetFlightEnv(app, headless=not args.gui, world=split.world, drone=split.drone)
 policy = load_policy(args.policy)
 results = []
 for i in range(args.first, args.first + args.flights):
